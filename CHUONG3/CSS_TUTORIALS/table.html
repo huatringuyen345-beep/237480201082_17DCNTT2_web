@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Table Width & Height</title>
+    <style>
+        table, td, th {
+            border: 1px solid black;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        /* 100% */
+        .w100 {
+            width: 100%;
+        }
+
+        /* 50% */
+        .w50 {
+            width: 50%;
+        }
+
+        /* 500px */
+        .wpx {
+            width: 500px;
+        }
+
+        /* auto */
+        .wauto {
+            width: auto;
+        }
+
+        /* header height */
+        .height th {
+            height: 70px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Table width = 100%</h2>
+<table class="w100">
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Savings</th>
+    </tr>
+    <tr>
+        <td>Peter</td>
+        <td>Griffin</td>
+        <td>$100</td>
+    </tr>
+</table>
+
+<h2>Table width = 50%</h2>
+<table class="w50">
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Savings</th>
+    </tr>
+    <tr>
+        <td>Lois</td>
+        <td>Griffin</td>
+        <td>$150</td>
+    </tr>
+</table>
+
+<h2>Table width = 500px</h2>
+<table class="wpx">
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Savings</th>
+    </tr>
+    <tr>
+        <td>Joe</td>
+        <td>Swanson</td>
+        <td>$300</td>
+    </tr>
+</table>
+
+<h2>Table width = auto</h2>
+<table class="wauto">
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Savings</th>
+    </tr>
+    <tr>
+        <td>Cleveland</td>
+        <td>Brown</td>
+        <td>$250</td>
+    </tr>
+</table>
+
+<h2>Set height of table header (th)</h2>
+<table class="w100 height">
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Savings</th>
+    </tr>
+    <tr>
+        <td>Peter</td>
+        <td>Griffin</td>
+        <td>$100</td>
+    </tr>
+</table>
+
+</body>
+</html>
